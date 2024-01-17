@@ -21,16 +21,23 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        private object textBox;
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Button_Click_0(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            int numb;
         }
 
+        private void Button_Click_0(object sender, RoutedEventArgs e)
+        {
+            textbox.Text += "0";
+        }
+       
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 

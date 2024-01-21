@@ -7,30 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <!-- <Label Content="Label" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Height="30" Width="146"/> -->
-        <!-- <TextBlock Text="0" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Height="30" Width="146"/> -->
-        <TextBox x:Name="textbox" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Height="30" Width="146" TextChanged="TextBox_TextChanged"/>
-        <Button Content="7" HorizontalAlignment="Left" Margin="40,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_7"/>
-        <Button Content="8" HorizontalAlignment="Left" Margin="92,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_8"/>
-        <Button Content="9" HorizontalAlignment="Left" Margin="144,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_9"/>
+        <TextBox x:Name="textbox" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Height="30" Width="146"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Margin="40,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_7"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="92,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_8"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="144,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_9"/>
 
-        <Button Content="4" HorizontalAlignment="Left" Margin="40,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_4"/>
-        <Button Content="5" HorizontalAlignment="Left" Margin="92,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_5"/>
-        <Button Content="6" HorizontalAlignment="Left" Margin="144,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_6"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="40,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_4"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Margin="92,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_5"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="144,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_6"/>
 
-        <Button Content="1" HorizontalAlignment="Left" Margin="40,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_1"/>
-        <Button Content="2" HorizontalAlignment="Left" Margin="92,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_2"/>
-        <Button Content="3" HorizontalAlignment="Left" Margin="144,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_3"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="40,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_1"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="92,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_2"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="144,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_3"/>
 
-        <Button Content="0" HorizontalAlignment="Left" Margin="92,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_0"/>
-        <Button Content="C" HorizontalAlignment="Left" Margin="40,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Clear"/>
-        <Button Content="=" HorizontalAlignment="Left" Margin="144,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Equal"/>
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Margin="92,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_0"/>
+        <Button x:Name="clear" Content="C" HorizontalAlignment="Left" Margin="40,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Clear"/>
+        <Button x:Name="equal" Content="=" HorizontalAlignment="Left" Margin="144,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Equal"/>
 
-        <Button Content="+" HorizontalAlignment="Left" Margin="196,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Addition"/>
-        <Button Content="-" HorizontalAlignment="Left" Margin="196,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Substraction"/>
-        <Button Content="×" HorizontalAlignment="Left" Margin="196,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Multiplication"/>
-        <Button Content="÷" HorizontalAlignment="Left" Margin="196,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Division"/>
+        <Button x:Name="addition" Content="+" HorizontalAlignment="Left" Margin="196,71,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Addition"/>
+        <Button x:Name="substraction" Content="-" HorizontalAlignment="Left" Margin="196,123,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Substraction"/>
+        <Button x:Name="multiplication" Content="×" HorizontalAlignment="Left" Margin="196,175,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Multiplication"/>
+        <Button x:Name="division" Content="÷" HorizontalAlignment="Left" Margin="196,227,0,0" VerticalAlignment="Top" Height="42" Width="42" Click="Button_Click_Division"/>
 
-        <Button Content="←" HorizontalAlignment="Left" Margin="196,30,0,0" VerticalAlignment="Top" Height="30" Width="42" Click="Button_Click_Delete"/>
+        <Button x:Name="delete" Content="←" HorizontalAlignment="Left" Margin="196,30,0,0" VerticalAlignment="Top" Height="30" Width="42" Click="Button_Click_Delete"/>
     </Grid>
 </Window>
